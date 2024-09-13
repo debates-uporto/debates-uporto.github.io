@@ -1,0 +1,44 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'SdDUP'
+
+params:
+  slogan: "Ao Bom, Ao Belo, Ao Amor, e, talvez, À Verdade"
+  
+  header_menu: [
+    { name: "Orgãos Sociais", url: "/orgaos" },
+    { name: "Documentos"    , url: "/docs"   },
+    { name: "Notícias"      , url: "/posts"  },
+    { name: "Biblioteca"    , url: "/books"  }
+  ]
+
+  footer_menu: [
+    { name: "Orgãos Sociais", url: "/orgaos" },
+    { name: "Documentos"    , url: "/docs"   },
+    { name: "Biblioteca"    , url: "/books"  }
+  ]
+
+  sponsors: [
+    { name: "Universidade do Porto", logo: "/img/uporto.png" },
+    { name: "IPDJ"                 , logo: "/img/ipdj.png"   }
+  ]
+
+  contacts: [
+    { text: "sociedadededebates@gmail.com"      , icon: "envelope-fill" },
+    { text: "965854825"                         , icon: "phone"         },
+    { text: "Rua dos Bragas 223, 4050-123 Porto", icon: "house-fill"    },
+  ]
+
+  socials: [
+    { name: "discord"  , url: "https://discord.gg/35NCxABkKc"                      },
+    { name: "facebook" , url: "https://www.facebook.com/sddup"                     },
+    { name: "instagram", url: "https://www.instagram.com/debates.uporto/"          },
+    { name: "linkedin" , url: "https://pt.linkedin.com/company/sddup"              },
+    { name: "youtube"  , url: "https://www.youtube.com/@sociedadededebates/videos" }
+  ]
+
+  events: [
+    { name: "Debate Inaugural"            , info: "23 de Setembro | Auditório 128 - FDUP | 18:00" , url: "https://forms.gle/MuyoetL7StSFFtuD9" },
+    { name: "U.Porto Argumenta - Ecologia", info: "26 de Setembro | Casa Comum - Reitoria | 18:00", url: "" },
+    { name: "D.R.E.A.M."                  , info: "28 de Setembro | ICBAS | 09:30"                , url: "" },
+  ]

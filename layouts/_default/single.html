@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="container py-3 py-md-5">
+    <hgroup>
+      <h1>{{ .Title }}</h1>
+      <h6 class="mb-4">{{ .Date | time.Format ":date_medium" }}</h6>
+    </hgroup>
+
+    {{ .Content }}
+  </div>
+{{ end }}

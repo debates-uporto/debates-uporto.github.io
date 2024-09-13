@@ -1,0 +1,19 @@
+{{ define "extra_css" }}
+  <style>
+    h1, h2, h3, h4, h5 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h2, h3, h4 {
+      margin-top: 2rem;
+    }
+  </style>
+{{ end }}
+
+{{ define "main" }}
+  <div class="container py-3 py-md-5 legal">
+    <h1>{{ .Title }}</h1>
+
+    {{ .Content }}
+  </div>
+{{ end }}

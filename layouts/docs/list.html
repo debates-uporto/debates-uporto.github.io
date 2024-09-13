@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="container py-3 py-md-5">
+    <h1>Documentos</h1>
+    
+    <div class="list-group py-4 py-lg-5">            
+      {{ range .Pages }}
+        <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action">
+          {{ .Title }}
+        </a>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <div class="container py-3 py-md-5">
+    <h1 class="mb-3">{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+
+    <div class="table-responsive">
+      <table class="table table-responsive">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Título</th>
+            <th scope="col">Autor</th>
+            <th scope="col">Língua</th>
+            <th scope="col">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Params.books }}
+            <tr>
+              <td>{{ .name }}</td>
+              <td>{{ .author }}</td>
+              <td>{{ .lang }}</td>
+              <td>
+                <a href="{{ .url }}" target="_blank" class="text-reset">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{{ end }}

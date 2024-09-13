@@ -1,0 +1,38 @@
+<footer class="text-center text-lg-start bg-body-tertiary text-muted mt-auto">
+  <section>
+    <div class="container text-center text-md-start border-top py-4" >
+      <div class="row mt-3">
+        <div class="col-md-4 col-lg-4 mx-auto mb-4">
+          <h6 class="fw-bold mb-4">{{ .Site.Title }}:</h6>
+          <p>{{ .Site.Params.slogan }}</p>
+          
+          <h6 class="fw-bold my-4">Parceiros:</h6>
+          {{ range .Site.Params.sponsors }}
+            <span class="mx-auto d-block d-xl-inline me-xl-4 my-4">
+              <img src="{{ .logo }}" alt="Patrocinado po {{ .name }}" height="32">
+            </span>
+          {{ end }}
+        </div>
+
+        <div class="col-md-4 col-lg-4 mx-auto mb-md-0 mb-4">
+          <h6 class="fw-bold mb-4">Links:</h6>
+          {{ range .Site.Params.footer_menu }}
+            <p><i class="bi bi-box-arrow-up-right"></i> <a href="{{ .url }}" class="text-reset">{{ .name }}</a></p>
+          {{ end }}
+        </div>
+        
+        <div class="col-md-4 col-lg-4 mx-auto mb-md-0 mb-4">
+          <h6 class="fw-bold mb-4">Contactos:</h6>
+          {{ range .Site.Params.contacts }}
+            <p><i class="bi bi-{{ .icon }}"></i> {{ .text }}</p>
+          {{ end }}
+          <p><i class="bi bi-box-arrow-up-right"></i> <a href="/contacts" class="text-reset">Ver Mais</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright: <strong>{{ .Site.Title }}</strong>
+  </div>
+</footer>

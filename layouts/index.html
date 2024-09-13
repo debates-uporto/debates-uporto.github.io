@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+<div class="border-bottom mb-5">
+  <div class="container pt-5 text-center">
+    <h1 class="display-4 fw-bold">{{ .Params.banner_title }}</h1>
+    <div class="mx-auto">
+      <p class="lead">{{ .Params.banner_subtitle }}</p>
+      
+      <section class="d-flex justify-content-center p-4 display-7">
+        <div>
+          {{ range .Site.Params.Socials }}
+            <a href="{{ .url }}" class="icon-link me-4 text-reset">
+                <h5><i class="link-secondary bi bi-{{ .name | strings.ToLower }}"></i></h5>
+            </a>
+          {{ end }}
+        </div>
+      </section>
+
+    </div>
+    <div class="overflow-hidden" style="max-height: 50vh;">
+        <img src="{{ .Params.banner_image }}" alt="Banner" width="1400" height="750" class="img-fluid border rounded-3 shadow mb-4 ">
+    </div>
+  </div>
+</div>
+
+<div class="container py-3 py-md-5">
+  {{ range .Params.blocks }}
+    <div class="row {{ if .image_left }} flex-md-row-reverse {{ end }} align-items-center g-5 py-4 py-lg-5">
+      <div class="col-12 col-md-6">
+        <img src="{{ .image }}" alt="" loading="lazy" width="700" height="400"
+          class="d-block mx-auto img-fluid border rounded-3 shadow"
+        >
+      </div>
+
+      <div class="col-12 col-md-6">
+        <h2 class="display-5 fw-bold lh-1 mb-3">{{ .title }}</h2>
+        <p class="lead">{{ .text }}</p>
+        <a class="btn btn-primary" href="{{ .url }}">{{ .text_btn }}</a>
+      </div>
+    </div>
+    <hr>
+  {{ end }}
+
+  {{ if .Site.Params.events }}
+    <h2 class="display-5 fw-bold lh-1 pt-3 pt-lg-5">Próximos Eventos</h2>
+    <div class="row {% if self.image_left %} flex-md-row-reverse {% endif %} align-items-center g-5 py-4 py-lg-5">
+      <div class="col-12">
+        <ul class="list-group ">
+          {{ range .Site.Params.events }}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">{{ .name }}</div>
+                {{ .info }}
+              </div>
+              {{ if .url }}
+                <a class="text-reset" href="{{ .url }}"><i class="bi bi-box-arrow-up-right fs-5"></i></a>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  {{ end }}
+</div>
+
+
+{{ end }}
