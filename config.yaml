@@ -38,7 +38,7 @@ params:
   ]
 
   events: [
-    { name: "Debate Inaugural"            , info: "23 de Setembro | Auditório 128 - FDUP | 18:00" , url: "https://forms.gle/MuyoetL7StSFFtuD9" },
+    { name: "Debate Inaugural"            , info: "23 de Setembro | Auditório 128 - FDUP | 18:00" , url: "https://forms.gle/h3YHZi5TDWyJ8vF8A" },
     { name: "U.Porto Argumenta - Ecologia", info: "26 de Setembro | Casa Comum - Reitoria | 18:00", url: "" },
-    { name: "D.R.E.A.M."                  , info: "28 de Setembro | ICBAS | 09:30"                , url: "" },
+    { name: "D.R.E.A.M."                  , info: "28 de Setembro | ICBAS | 09:30"                , url: "https://forms.gle/yd51rk4neQjKbWjdA" },
   ]

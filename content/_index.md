@@ -8,7 +8,7 @@ blocks: [
       text_btn: "Junta-te a nós", url: "https://docs.google.com/forms/d/e/1FAIpQLSfmmqaa_rXhfvXQlE2h0JGY1NlzpJwDodokM0THptnsS8wRCQ/viewform",
       text: "A SdDUP é uma organização estudantil sem fins lucrativos que se dedica ao debate como forma de promoção do espírito crítico, da compreensão mútua, do amor à língua, às palavras e às ideias."
     },
-    { title: "14 Anos de História", image_left: false, image: "/img/foto2.jpg",
+    { title: "Muitos Anos de História", image_left: false, image: "/img/foto2.jpg",
       text_btn: "Sabe Mais", url: "/historia/",
       text: "A SdDUP nasceu em 2010 da vontade de união de dois projetos de debates pré-existentes na Universidade do Porto e desde então tem consolidado o seu nome no cenário nacional e internacional de debate competitivo."
     },
