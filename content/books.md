@@ -59,7 +59,11 @@ books: [
   },
   { name: "Abolition. Feminism. Now.", author: "Angela Davis, Gina Dent, Erica Meiners, Beth Richie",
     lang: "Inglês", url: "https://www.goodreads.com/book/show/53657256-abolition-feminism-now"  
+  },
+  { name: "Sociedade do Cansaço", author: "Byung-Chul Han",
+    lang: "Português", url: https://www.goodreads.com/book/show/30842733-sociedade-do-cansa-o"
   }
+
 ]
 ---
 

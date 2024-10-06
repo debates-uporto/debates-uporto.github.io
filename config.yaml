@@ -37,7 +37,6 @@ params:
     { name: "youtube"  , url: "https://www.youtube.com/@sociedadededebates/videos" }
   ]
 
-  events: [
-    { name: "U.Porto Argumenta - Ecologia", info: "26 de Setembro | Casa Comum - Reitoria | 18:00", url: "" },
-    { name: "D.R.E.A.M."                  , info: "28 de Setembro | ICBAS | 09:30"                , url: "https://forms.gle/yd51rk4neQjKbWjdA" },
+  events: [ 
+    { name: "D.R.E.A.M.", info: "26 de Outubro | ICBAS | 09:30", url: "" }
   ]
