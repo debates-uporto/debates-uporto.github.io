@@ -62,8 +62,13 @@ books: [
   },
   { name: "Sociedade do Cansaço", author: "Byung-Chul Han",
     lang: "Português", url: https://www.goodreads.com/book/show/30842733-sociedade-do-cansa-o"
+  },
+  { name: "What is Hauntology", author: "Mark Fisher",
+    lang: "Inglês", url: "https://www.jstor.org/stable/10.1525/fq.2012.66.1.16?read-now=1"
+  },
+  { name: "Death of the author", author: "Roland Barthes",
+    lang: "Inglês", url: "https://www.goodreads.com/book/show/11289919-the-death-of-the-author"
   }
-
 ]
 ---
 
