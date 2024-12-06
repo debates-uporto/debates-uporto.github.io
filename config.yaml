@@ -38,7 +38,6 @@ params:
   ]
 
   events: [ 
-    { name: "U.Porto Argumenta", info: "14 de Novembro | Casa Comum | 18:00", url: "" },
-    { name: "D.R.E.A.M.", info: "23 de Novembro | ICBAS | 09:30", url: "" },
-    { name: "Distrital do Porto", info: "30 de Novembro e 1 de Dezembro | ICBAS", url: "" }
+    { name: "D.R.E.A.M.", info: "14 de Novembro | ICBAS | 09:30", url: "" },
+    { name: "Formação: Como não ter um ataque de pánico em OG - Bee", info: "22 de Dezembro | Online | 21:30", url: "" },
   ]
