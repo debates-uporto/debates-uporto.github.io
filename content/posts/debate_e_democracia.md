@@ -1,8 +1,8 @@
 ---
 title: "Debate e Democracia"
-date: 2024-09-02
+date: 2024-11-15
 thumbnail: "/img/foto1.jpg"
-teaser: ""
+teaser: "O debate é fundamental para o funcionamento da democracia"
 ---
 
 O debate é o pilar da democracia. Num sistema democrático, assume um papel central por três razões principais: Inclusão, Clarificação e Transparência.
